@@ -1,5 +1,6 @@
 import mlflow
 import mlflow.sklearn
+mlflow.set_tracking_uri("file:./mlruns")
 
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
