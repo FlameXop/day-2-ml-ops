@@ -1,0 +1,23 @@
+artifact_path: /home/flamexop/Desktop/ncu/day2/mlruns/0/models/m-561aae7dafd6455bbd64dd98a857bfc6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-561aae7dafd6455bbd64dd98a857bfc6
+model_size_bytes: 56009
+model_uuid: m-561aae7dafd6455bbd64dd98a857bfc6
+prompts: null
+run_id: 50410f1129a34cb48935ced7ee9d9053
+utc_time_created: '2026-06-03 10:24:54.885655'
